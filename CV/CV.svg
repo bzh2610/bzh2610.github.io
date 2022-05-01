@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1610.512 3372.868">
+  <defs>
+    <style>
+      .cls-1, .cls-18, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #ff6565;
+      }
+
+      .cls-1, .cls-2, .cls-6, .cls-7 {
+        stroke-width: 10px;
+      }
+
+      .cls-2, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #707070;
+        font-size: 27px;
+        font-family: HelveticaNeue-Bold, Helvetica Neue;
+        font-weight: 700;
+      }
+
+      .cls-10, .cls-14, .cls-4, .cls-5, .cls-8, .cls-9 {
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-4 {
+        font-weight: 400;
+      }
+
+      .cls-5 {
+        fill: #ff6565;
+      }
+
+      .cls-10, .cls-14, .cls-5, .cls-8 {
+        font-size: 40px;
+      }
+
+      .cls-6, .cls-7 {
+        stroke: #ff9f64;
+      }
+
+      .cls-8 {
+        fill: #ff9f64;
+      }
+
+      .cls-9 {
+        fill: #383838;
+        font-size: 20px;
+      }
+
+      .cls-10 {
+        fill: #313131;
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-12 {
+        fill: #f5f5f5;
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-14 {
+        fill: #404040;
+      }
+
+      .cls-15 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-16 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-17 {
+        stroke: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f8f8f8"/>
+      <stop offset="0" stop-color="#baebf7"/>
+      <stop offset="0.089" stop-color="#3fd1f5"/>
+      <stop offset="1" stop-color="#ed32d7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#67a7ff"/>
+      <stop offset="0.089" stop-color="#45bee2"/>
+      <stop offset="1" stop-color="#b5ff80"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e3e3e3"/>
+      <stop offset="0.089" stop-color="#ccc"/>
+      <stop offset="1" stop-color="#606060"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f8f8f8"/>
+      <stop offset="0" stop-color="#fea56e"/>
+      <stop offset="0.089" stop-color="#e28145"/>
+      <stop offset="1" stop-color="#edd032"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_461" data-name="Groupe 461" transform="translate(-347.288 -397)">
+    <g id="Groupe_455" data-name="Groupe 455">
+      <line id="Ligne_950" data-name="Ligne 950" class="cls-1" x2="1573" transform="translate(347.5 613.5)"/>
+      <g id="Ellipse_552" data-name="Ellipse 552" class="cls-2" transform="translate(492 572)">
+        <circle class="cls-17" cx="41" cy="41" r="41"/>
+        <circle class="cls-18" cx="41" cy="41" r="36"/>
+      </g>
+      <g id="Ellipse_553" data-name="Ellipse 553" class="cls-2" transform="translate(786 572)">
+        <circle class="cls-17" cx="41" cy="41" r="41"/>
+        <circle class="cls-18" cx="41" cy="41" r="36"/>
+      </g>
+      <g id="Ellipse_555" data-name="Ellipse 555" class="cls-2" transform="translate(1360 572)">
+        <circle class="cls-17" cx="41" cy="41" r="41"/>
+        <circle class="cls-18" cx="41" cy="41" r="36"/>
+      </g>
+      <text id="_2018_-_Aujourd_hui_Formation_étudiant_entrepreneur_à_l_IAE_de_Brest." data-name="2018 - Aujourd’hui
+Formation étudiant entrepreneur à l’IAE de Brest." class="cls-3" transform="translate(1401 705)"><tspan x="0" y="26">2018 - Aujourd’hui</tspan><tspan class="cls-4"><tspan x="0" y="59">Formation étudiant entrepreneur à </tspan><tspan x="0" y="92">l’IAE de Brest.</tspan></tspan></text>
+      <text id="_2016_-_Aujourd_hui_MOOC_principalement_OpenClassroom_et_Udacity_." data-name="2016 - Aujourd’hui
+MOOC (principalement OpenClassroom et Udacity)." class="cls-3" transform="translate(798 444)"><tspan x="0" y="26">2016 - Aujourd’hui</tspan><tspan class="cls-4"><tspan x="0" y="59">MOOC (principalement OpenClassroom et </tspan><tspan x="0" y="92">Udacity).</tspan></tspan></text>
+      <text id="_2015_-_Aujourd_hui_École_Nationale_d_Ingénieurs_de_Brest_ENIB_._Baccalauréat_scientifique_section_européenne_anglais_mention_bien._" data-name="2015 - Aujourd’hui
+• École Nationale d&apos;Ingénieurs de Brest (ENIB).
+
+• Baccalauréat scientifique section européenne anglais mention bien.
+" class="cls-3" transform="translate(492 726)"><tspan x="0" y="26">2015 - Aujourd’hui</tspan><tspan class="cls-4"><tspan x="0" y="59">• École Nationale d&apos;Ingénieurs </tspan><tspan x="0" y="92">de Brest (ENIB).</tspan><tspan x="0" y="125"></tspan><tspan x="0" y="158">• Baccalauréat scientifique </tspan><tspan x="0" y="191">section européenne anglais </tspan><tspan x="0" y="224">mention bien.</tspan></tspan></text>
+      <text id="FORMATION" class="cls-5" transform="translate(429 435)"><tspan x="0" y="0">FORMATION</tspan></text>
+      <path id="Tracé_2123" data-name="Tracé 2123" class="cls-6" d="M-161.3,203.156C-88.1,174.028-61.825,0,28.939,0H1279.652" transform="translate(645.5 1381.5)"/>
+      <g id="Ellipse_556" data-name="Ellipse 556" class="cls-7" transform="translate(709 1341)">
+        <circle class="cls-17" cx="41" cy="41" r="41"/>
+        <circle class="cls-18" cx="41" cy="41" r="36"/>
+      </g>
+      <g id="Ellipse_557" data-name="Ellipse 557" class="cls-7" transform="translate(1003 1341)">
+        <circle class="cls-17" cx="41" cy="41" r="41"/>
+        <circle class="cls-18" cx="41" cy="41" r="36"/>
+      </g>
+      <g id="Ellipse_558" data-name="Ellipse 558" class="cls-7" transform="translate(1577 1341)">
+        <circle class="cls-17" cx="41" cy="41" r="41"/>
+        <circle class="cls-18" cx="41" cy="41" r="36"/>
+      </g>
+      <text id="_2018_-_Aujourd_hui_Fondateur_chez_Shackr" data-name="2018 - Aujourd’hui
+Fondateur chez Shackr" class="cls-3" transform="translate(1618 1474)"><tspan x="0" y="26">2018 - Aujourd’hui</tspan><tspan class="cls-4"><tspan x="0" y="59">Fondateur chez Shackr</tspan></tspan></text>
+      <text id="_2016_-_Aujourd_hui_Auto-entrepreneur_en_développement_web_et_mobile." data-name="2016 - Aujourd’hui
+Auto-entrepreneur en développement web et mobile." class="cls-3" transform="translate(1015 1229)"><tspan x="0" y="26">2016 - Aujourd’hui</tspan><tspan class="cls-4"><tspan x="0" y="59">Auto-entrepreneur en développement web et mobile.</tspan></tspan></text>
+      <text id="_2015_-_2016_Participation_à_la_création_d_une_start-up_Wifioo_._" data-name="2015 - 2016
+• Participation à la création d’une start-up (Wifioo).
+" class="cls-3" transform="translate(709 1474)"><tspan x="0" y="26">2015 - 2016</tspan><tspan class="cls-4"><tspan x="0" y="59">• Participation à la création d’une start-up (Wifioo).</tspan><tspan x="0" y="92"></tspan></tspan></text>
+      <text id="EXPÉRIENCES_PROFESSIONNELLES" data-name="EXPÉRIENCES PROFESSIONNELLES" class="cls-8" transform="translate(430 1169)"><tspan x="0" y="0">EXPÉRIENCES PROFESSIONNELLES</tspan></text>
+      <path id="Tracé_2124" data-name="Tracé 2124" class="cls-6" d="M-297.975-229.5l141.58,1.573C-74.77-170.488-69.918.256,28.527.256L566.95,0l709.758.962" transform="translate(645.5 1812.5)"/>
+      <g id="Ellipse_561" data-name="Ellipse 561" class="cls-7" transform="translate(1577 1772)">
+        <circle class="cls-17" cx="41" cy="41" r="41"/>
+        <circle class="cls-18" cx="41" cy="41" r="36"/>
+      </g>
+      <text id="Jun._-_Sept._2018_Stage_d_assistant_ingénieur_au_Crédit_Mutuel_Arkéa._" data-name="Jun. - Sept. 2018 
+Stage d’assistant ingénieur au Crédit Mutuel Arkéa.
+" class="cls-3" transform="translate(1577 1875)"><tspan x="0" y="26">Jun. - Sept. 2018 </tspan><tspan class="cls-4"><tspan x="0" y="59">Stage d’assistant ingénieur </tspan><tspan x="0" y="92">au Crédit Mutuel Arkéa.</tspan></tspan></text>
+      <text id="Jan._-_Fév._2017_Stagiaire_chez_ViaFlats_à_Lisbonne_développeur_full_stack_." data-name="Jan. - Fév. 2017
+Stagiaire chez ViaFlats à Lisbonne ( développeur full stack )." class="cls-3" transform="translate(937 1875)"><tspan x="236.361" y="26">Jan. - Fév. 2017</tspan><tspan class="cls-4"><tspan x="22.98" y="59">Stagiaire chez ViaFlats à Lisbonne </tspan><tspan x="132.951" y="92">( développeur full stack ).</tspan></tspan></text>
+      <text id="ENTREPRENEUR" class="cls-9" transform="translate(419 1401)"><tspan x="0" y="0">ENTREPRENEUR</tspan></text>
+      <text id="SALARIÉ" class="cls-9" transform="translate(452 1832)"><tspan x="0" y="0">SALARIÉ</tspan></text>
+      <g id="Ellipse_562" data-name="Ellipse 562" class="cls-7" transform="translate(1290 1772)">
+        <circle class="cls-17" cx="41" cy="41" r="41"/>
+        <circle class="cls-18" cx="41" cy="41" r="36"/>
+      </g>
+      <text id="DÉVELOPPEMENT" class="cls-10" transform="translate(429 2221)"><tspan x="0" y="0">DÉVELOPPEMENT</tspan></text>
+    </g>
+    <g id="Groupe_456" data-name="Groupe 456" transform="translate(204.217 -222)">
+      <g id="Groupe_420" data-name="Groupe 420" transform="translate(643.251 2604.536)">
+        <ellipse id="Ellipse_525" data-name="Ellipse 525" class="cls-11" cx="240.691" cy="240.691" rx="240.691" ry="240.691" transform="matrix(-0.225, -0.974, 0.974, -0.225, 108.287, 577.332)"/>
+        <ellipse id="Ellipse_526" data-name="Ellipse 526" class="cls-12" cx="220.315" cy="220.314" rx="220.315" ry="220.314" transform="translate(76.01 60.96) rotate(2)"/>
+      </g>
+    </g>
+    <g id="Groupe_459" data-name="Groupe 459" transform="translate(-495 -13)">
+      <g id="Groupe_458" data-name="Groupe 458" transform="translate(182.217 162)">
+        <g id="Groupe_420-2" data-name="Groupe 420" transform="translate(643.251 2604.536)">
+          <ellipse id="Ellipse_525-2" data-name="Ellipse 525" class="cls-13" cx="240.691" cy="240.691" rx="240.691" ry="240.691" transform="translate(493.517 16.82) rotate(82)"/>
+          <ellipse id="Ellipse_526-2" data-name="Ellipse 526" class="cls-12" cx="220.315" cy="220.314" rx="220.315" ry="220.314" transform="translate(76.01 60.96) rotate(2)"/>
+        </g>
+      </g>
+      <text id="Swift_Java" data-name="Swift
+Java" class="cls-14" transform="translate(1114 3040)"><tspan x="-44.78" y="0">Swift</tspan><tspan x="-41.86" y="60">Java</tspan></text>
+    </g>
+    <text id="MOBILE" class="cls-14" transform="translate(635 2769)"><tspan x="-74.84" y="0">MOBILE</tspan></text>
+    <g id="Groupe_460" data-name="Groupe 460" transform="translate(22 426)">
+      <g id="Groupe_458-2" data-name="Groupe 458" transform="translate(182.217 162)">
+        <g id="Groupe_420-3" data-name="Groupe 420" transform="translate(643.251 2604.536)">
+          <ellipse id="Ellipse_525-3" data-name="Ellipse 525" class="cls-15" cx="240.691" cy="240.691" rx="240.691" ry="240.691" transform="matrix(-0.225, -0.974, 0.974, -0.225, 108.287, 577.332)"/>
+          <ellipse id="Ellipse_526-3" data-name="Ellipse 526" class="cls-12" cx="220.315" cy="220.314" rx="220.315" ry="220.314" transform="translate(76.01 60.96) rotate(2)"/>
+        </g>
+      </g>
+      <text id="C_Assembleur_ARM" data-name="C
+Assembleur ARM" class="cls-14" transform="translate(1114 3040)"><tspan x="-14.44" y="0">C</tspan><tspan x="-155.22" y="60">Assembleur ARM</tspan></text>
+    </g>
+    <text id="EMBARQUÉ" class="cls-14" transform="translate(1136 3207)"><tspan x="-111.86" y="0">EMBARQUÉ</tspan></text>
+    <g id="Groupe_457" data-name="Groupe 457" transform="translate(737.217 149)">
+      <g id="Groupe_420-4" data-name="Groupe 420" transform="translate(643.251 2604.536)">
+        <ellipse id="Ellipse_525-4" data-name="Ellipse 525" class="cls-16" cx="240.691" cy="240.691" rx="240.691" ry="240.691" transform="matrix(-0.225, -0.974, 0.974, -0.225, 108.287, 577.332)"/>
+        <ellipse id="Ellipse_526-4" data-name="Ellipse 526" class="cls-12" cx="220.315" cy="220.314" rx="220.315" ry="220.314" transform="translate(76.01 60.96) rotate(2)"/>
+      </g>
+    </g>
+    <text id="PHP_7_MySQL_MongoDB_Node.JS_WARP_10" data-name="PHP 7
+MySQL
+MongoDB
+Node.JS
+WARP 10" class="cls-14" transform="translate(1136 2560)"><tspan x="-57.04" y="0">PHP 7</tspan><tspan x="-66.7" y="60">MySQL</tspan><tspan x="-90.76" y="120">MongoDB</tspan><tspan x="-77.42" y="180">Node.JS</tspan><tspan x="-85.46" y="240">WARP 10</tspan></text>
+    <text id="HTML_5_CSS_3_Angular_6_JQuery_JavaScript_" data-name="HTML 5
+CSS 3
+Angular 6
+JQuery
+JavaScript
+" class="cls-14" transform="translate(1669 2944)"><tspan x="-71.14" y="0">HTML 5</tspan><tspan x="-57.04" y="60">CSS 3</tspan><tspan x="-85.2" y="120">Angular 6</tspan><tspan x="-64.1" y="180">JQuery</tspan><tspan x="-94.82" y="240">JavaScript</tspan><tspan x="0" y="300"></tspan></text>
+    <text id="SERVEUR" class="cls-14" transform="translate(1136 2421)"><tspan x="-91.1" y="0">SERVEUR</tspan></text>
+    <text id="CLIENT" class="cls-14" transform="translate(1669 2769)"><tspan x="-68.88" y="0">CLIENT</tspan></text>
+  </g>
+</svg>

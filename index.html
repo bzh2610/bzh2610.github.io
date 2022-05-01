@@ -1,0 +1,473 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+<title>Evan OLLIVIER</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Evan OLLIVIER, développeur freelance sur Brest. Étudiant à l'ENIB, intéressé par les startups. En savoir plus..." />
+<meta name="keywords" content="Evan OLLIVIER, developpeur, web, brest, ENIB" />
+<meta name="author" content="Evan OLLIVIER" />
+</head>
+<style>
+
+
+        h1{
+            font-family: 'Lato'; text-transform: uppercase; font-weight: 300; font-size:50px; color: white;
+        }
+
+        body{
+            font-family: 'Lato'; font-size: 20px; color: white;
+            background: #000;
+
+            margin: 0px;
+            padding: 0px;
+                
+        }
+        .L  {
+            width:90%;
+        }
+        .L td {
+            width:30%;
+            position:relative;
+        }
+        .L td:after{
+            content:'';
+            display:block;
+            margin-top:100%;
+        }
+        .L td .g {
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            background:gold;
+        }
+
+
+        td .content {
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            /*background:gold;*/
+            transition: background 0.5s ease-in-out;
+        }
+
+
+
+
+        #hello{
+            transition:         transform 2s ease-in-out;
+        }
+        #hello:hover{
+            transform: rotate(90deg);
+
+        }
+
+        .letter{
+            width: 20%;
+        }
+
+
+
+
+
+        /*header*/
+
+        header{
+    width: 25%;
+    bottom: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    padding: 20% 0 20% 00
+}
+
+        header ul{
+            list-style: none;
+            font-weight: 300;
+            font-size: 20px;
+            color: #000;
+            text-transform: uppercase;
+        }
+        
+        header ul li:hover{
+            color: #717171;
+            transition: 0.1s ease-in-out;
+            cursor: pointer;
+        }
+        
+        header.dark{
+        background: black;
+        color: white;
+        }
+        
+        header.dark ul{
+            color: #FFF;
+        }
+        header .logo{
+            background: url('img/logo_dark.svg') center/contain no-repeat; height: 30px; margin-top: 20px;
+        }
+        header.dark .logo{
+            background: url('img/logo_light.svg') center/contain no-repeat;
+        }
+
+
+        header p{
+            text-align: right; display: inline-block; float: right; margin-left: 30px; font-family: Lato; font-weight: 200; text-transform: uppercase; margin-top: 25px; font-size: 20px;
+        }
+
+        header p span{
+            padding: 20px;
+        }
+
+        header p span.selected{
+            color: #33ACE2;
+        }
+
+
+         
+        .header_drawer{
+            float: left;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 30px;
+            padding: 20px;
+        }
+
+        .main{
+            margin-left: 25%;
+            padding-left: 5%;
+            }
+        
+        .close{
+            display: none;
+        }
+                                 
+                    #cubes_svg{
+                        display: none;
+                    }
+        #logo_mobile{
+            display:none;
+            text-align: center;
+        }
+        
+                @media all and (max-width: 630px){
+            header{
+                display: none;
+                width: 100%;
+                opacity: 0.9;
+            }
+                    
+                    #logo_mobile{
+                        display: block;
+                    }
+                    
+                     .close{
+            display: inline;
+        }
+                    
+                    header.visible{
+                        display: block;
+                    }
+            .header_drawer{
+                display: block;
+            }
+                #cubes_html{
+                        display: none;
+                    }
+                    
+                    #cubes_svg{
+                        display: inline;
+                    }
+                    
+                    .main{
+            margin-left: 0%;
+            padding-left: 0%;
+            }
+        }
+        
+        @media all and(min-width: 631px){
+            
+            
+            
+      
+        }
+        
+        a{
+            color: inherit;
+            text-decoration: none;
+        }
+        .pannel_1{
+            /*height: 80%;*/
+        }
+    </style>
+<body>
+<div class="header_drawer">
+<img src="drawer_E.svg" alt="Menu" onClick="if (!window.__cfRLUnblockHandlers) return false; $('header').addClass('visible');" data-cf-modified-db32cfcf40e82dd25171ae79-="">
+</div>
+<header class="dark">
+<div class="logo">
+</div>
+<ul style="padding-top: 100px;">
+<li><a href="index.html"><b>Home</b></a></li>
+<li><a href="CV/index.html">Resume</a></li>
+<li><a href="articles/index.html">Articles</a></li>
+<li><a href="portfolio/index.html">Portfolio</a></li>
+<li><a href="contact/index.html">Contact</a></li>
+</ul>
+<ul style="padding-top: 100px;">
+<li>FR</li>
+<li class="close">CLOSE MENU</li>
+</ul>
+</header>
+<div class="main">
+<div class="pannel_1" style="padding-top: 20%;">
+<p id="logo_mobile">
+<img src="img/logo_light.svg" style="width: 30%;" alt="Evan">
+</p>
+<img id="cubes_svg" src="img/cubes.svg" alt="cubes" style="width: 100%;">
+<svg id="cubes_html" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;"><defs><style>
+    .a{fill:#b576ff;}
+    .b{fill:#be8ffd;}
+    .c{fill:#8633e8;}
+    .d{fill:#e34f88;}
+    .e{fill:#fd8fd3;}
+    .f{fill:#d8417b;}
+    .g{fill:#ff5252;}
+    .h{fill:#afffd4;}
+    .i{fill:#d5ffe5;}
+    .j{fill:#e6ffed;}
+    .k{fill:#52dafa;}
+    .l{fill:#52fae7;}
+    .m{fill:#b2fcff;}
+    .n{fill:#ff7676;}
+    .o{fill:#fd8f8f;}
+    .p{fill:#ff5d5d;}
+    
+    
+    .a:hover{
+        fill:#cea3ff;
+    }
+    .b:hover{fill:#aa6bff;}
+    .c:hover{fill:#6b12d4;}
+    .d:hover{fill:#ff75aa;}
+    .e:hover{fill:#ffbbe5;}
+    /*.f:hover{fill:#d1175f;}*/
+    .g:hover{fill:#ff7878;}
+    .h:hover{fill:#78ffb6;}
+    .i:hover{fill:#a0d4b4;}
+    .j:hover{fill:#a6ffbf;}
+    .k:hover{fill:#00c0ed;}
+    .l:hover{fill:#89fff2;}
+    .m:hover{fill:#64f9ff;}
+
+    .n:hover{fill:#ff9e9e;}
+    .o:hover{fill:#ffa9a9;}
+    .p:hover{fill:#ff3a3a;}
+    </style></defs><g transform="translate(-668.297 -262.738)"><g transform="translate(822.843 523.455)"><path class="a" d="M10434.033-2333.073v-87.1l75.757-43.934v88.8Z" transform="translate(-10358.218 2512.754)" /><path class="b" d="M10335.571-2376.086l76.365,43.22v-87.64l-76.365-43.793Z" transform="translate(-10335.571 2512.799)" /><path class="c" d="M10333.759-2349.617l76.162,43.756,76.825-43.334-77.4-49.09Z" transform="translate(-10333.614 2398.286)" /></g><g transform="translate(822.843 442.455)"><path class="a" d="M10434.033-2333.073v-87.1l75.757-43.934v88.8Z" transform="translate(-10358.218 2512.754)" /><path class="b" d="M10335.571-2376.086l76.365,43.22v-87.64l-76.365-43.793Z" transform="translate(-10335.571 2512.799)" /><path class="c" d="M10333.759-2349.617l76.162,43.756,76.825-43.334-77.4-49.09Z" transform="translate(-10333.614 2398.286)" /></g><g transform="translate(822.843 355.455)"><path class="a" d="M10434.033-2333.073v-87.1l75.757-43.934v88.8Z" transform="translate(-10358.218 2512.754)" /><path class="b" d="M10335.571-2376.086l76.365,43.22v-87.64l-76.365-43.793Z" transform="translate(-10335.571 2512.799)" /><path class="c" d="M10333.759-2349.617l76.162,43.756,76.825-43.334-77.4-49.09Z" transform="translate(-10333.614 2398.286)" /></g><g transform="translate(1041.058 355.555)"><path class="d" d="M10434.032-2326.421v-91.524l81.922-46.165v93.3Z" transform="translate(-10353.688 2515.75)" /><path class="e" d="M10335.57-2371.349l80.928,45.54v-92.346l-80.928-46.144Z" transform="translate(-10335.57 2515.403)" /><path class="f" d="M10333.759-2347l80.712,46.1,81.415-45.661-82.026-51.726Z" transform="translate(-10333.605 2398.286)" /></g><g transform="translate(668.297 613.867)"><path class="g" d="M0,3.456,87.309,0l46.448,74.577L45.963,77.76Z" transform="matrix(0.883, -0.469, 0.469, 0.883, 0, 62.795)" /><path class="h" d="M10333.588-2349.651l76.325,43.868,76.794-43.413-77.4-49.09Z" transform="translate(-10332.086 2415.555)" /><path class="i" d="M10434.033-2333.437v-86.86l77.3-43.812v88.549Z" transform="translate(-10356.729 2529.388)" /><path class="j" d="M10335.571-2376.086l76.365,43.22v-87.64l-76.365-43.793Z" transform="translate(-10334.082 2530.068)" /></g><g transform="translate(745.314 503.455)"><path class="k" d="M10333.759-2349.617l76.162,43.756,76.825-43.334-77.4-49.09Z" transform="translate(-10333.614 2398.286)" /><path class="l" d="M10434.033-2333.073v-87.1l77.3-43.934v88.8Z" transform="translate(-10358.219 2512.754)" /><path class="m" d="M10335.571-2376.086l76.365,43.22v-87.64l-76.365-43.793Z" transform="translate(-10335.571 2512.799)" /></g><g transform="translate(1045.154 262.738)"><path class="n" d="M10434.033-2333.073v-87.1l75.757-43.934v88.8Z" transform="translate(-10357.461 2512.756)" /><path class="o" d="M10335.571-2376.086l76.365,43.22v-87.64l-76.365-43.793Z" transform="translate(-10334.814 2512.799)" /><path class="p" d="M10333.588-2349.651l76.325,43.868,76.794-43.413-77.4-49.09Z" transform="translate(-10333.588 2398.286)" /></g></g></svg>
+</div>
+<div class="pannel_3">
+<h1>
+Elegant design
+</h1>
+<table style="width: 90%;">
+<tr>
+<td style="width: 50%;">
+<img src="img/dash1.svg" style="width: 100%;">
+<img src="img/dash3.svg" style="width: 100%;">
+</td>
+<td>
+<img src="img/dash2.svg" style="width: 100%;">
+</td>
+</tr>
+</table>
+</div>
+<div class="pannel_4">
+<h1>Smart solutions</h1>
+<style>
+                .logos td{
+                    padding: 20px;
+                }
+
+
+
+
+
+                .logos{
+                    height: 100px;
+                    width: 100%;
+                    margin: auto;
+                    max-width: 600px;
+                    display: block;
+                }
+
+
+
+
+                @keyframes rotating {
+                    from {
+                        -ms-transform: rotate(0deg);
+                        -moz-transform: rotate(0deg);
+                        -webkit-transform: rotate(0deg);
+                        -o-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                    }
+                    to {
+                        -ms-transform: rotate(360deg);
+                        -moz-transform: rotate(360deg);
+                        -webkit-transform: rotate(360deg);
+                        -o-transform: rotate(360deg);
+                        transform: rotate(360deg);
+                    }
+                }
+
+
+                #circle{
+
+                    animation: rotating 2s linear infinite;
+                }
+
+                #blackcardcircle{
+                    position: absolute;
+                    width: 80%;
+                    margin: auto;
+                    vertical-align: middle;
+                    top: 55px;
+                    left: 25px;
+                }
+                
+                
+                .logos td img{
+                    width: 100%;
+                    min-width: 90px;
+                    max-width: 120px;
+                }
+                
+                .parent{
+                     min-width: 200px;
+                }
+            </style>
+<table class="logos">
+<tr>
+<td><img src="paypal.svg"></td>
+<td><img src="visa.svg"></td>
+<td><img src="mastercard.svg"></td>
+<td><img src="applePay.svg"></td>
+</tr>
+</table>
+<div style="height: 300px; padding-top: 100px;">
+<div class="parent" style="display: inline-block; width: 20%; position: absolute; left:50%;">
+<img src="circleoutline.svg" id="circle" style="width: 100%;">
+<img src="black_card.svg" id="blackcardcircle">
+</div>
+</div>
+</div>
+<div class="pannel_4">
+<h1>Mobile applications</h1>
+<table style="width: 90%;">
+<tr>
+<td style="width: 50%;">
+<img src="img/ios12.svg" style="width: 50%; padding-bottom: 50%;">
+<img src="img/swift.svg" style="width: 50%;">
+</td>
+<td>
+<img src="img/phoneapp.svg" style="width: 100%;">
+</td>
+</tr>
+</table>
+</div>
+<div class="pannel_5">
+<h1>
+Contact
+</h1>
+<p>
+<p style="text-align: center; text-transform: uppercase; font-weight: 200; font-size: 20px;">
+<span style="padding: 50px;"> <a href="cdn-cgi/l/email-protection#81e4f7e0efafeeedede8f7e8e4f3c1e6ece0e8edafe2eeec"><img src="img/mail_light.svg" style="height: 25%" alt="Email"></a></span>
+<span> <a href="tel:0033695022903"><img src="img/phone_light.svg" style="height: 25%" alt="Téléphone"></a></span>
+</p>
+</div>
+<footer style="z-index: 1000; background: black; width: 100%; left: 0px; margin-top: -20px; padding: 50px;">
+<style>
+            footer p span{
+                padding: 20px;
+            }
+        </style>
+<style>
+            footer img{
+                height: 25px;
+            }
+        </style>
+<p style="vertical-align: top; text-align: left; text-transform: uppercase; font-weight: 200; font-size: 10px; width: 20%; display: inline-block;">
+Evan OLLIVIER (Entreprise individuelle),<br>
+SIREN: 804 720 898<br>
+51 ALLÉE DES CAMÉLIAS,<br>
+29490 GUIPAVAS,<br>
+FRANCE
+</p>
+<div style="display: inline-block; width: auto; padding-left: 10%; text-align: center; text-transform: uppercase; font-weight: 200; font-size: 20px;">
+<p>
+<span>À propos</span>
+<span>Aide</span>
+<span>CGV</span>
+<span>Contact</span>
+</p>
+<p>
+<span><a href="https://medium.com/@evan.ollivier"><img src="img/social/medium.svg" alt="Medium"></a></span>
+<span> <a href="https://github.com/bzh2610"><img src="img/social/github.svg" alt="Github"></a></span>
+<span> <a href="https://plus.google.com/u/0/+EvanOllivier"><img src="img/social/gplus.svg" alt="Google +"></a></span>
+<span> <a href="skype://evan.ollivier?chat"><img src="img/social/skype.svg" alt="Skype"></a></span>
+</p>
+<p style="text-align: center; font-weight: 200; font-size: 10px;">© 2016-2018<br>
+Evan OLLIVIER<br>
+All rights reserved.</p>
+</div>
+</footer>
+</div>
+</div>
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="db32cfcf40e82dd25171ae79-|49" defer=""></script></body>
+<script src="jquery-3.3.1.min.js" type="db32cfcf40e82dd25171ae79-text/javascript"></script>
+<script src="jquery.appear-master/jquery.appear.js" async defer type="db32cfcf40e82dd25171ae79-text/javascript"></script>
+<script type="db32cfcf40e82dd25171ae79-text/javascript">
+
+
+
+
+
+
+    
+
+
+function isInView(elem){
+   return !($(elem).offset().top - $(window).scrollTop() < -$(elem).height());
+}
+        
+
+    $(window).scroll(function(){
+   if (isInView($('.pannel_1'))){
+      //fire whatever you what
+       if(! $('header').hasClass('dark')){
+            $('header').addClass('dark');
+       }
+    
+   }else{
+       $('header').removeClass('dark');
+   }
+})
+    
+    
+    $('.close').on('click', function(){
+       $('header').removeClass('visible');
+    });
+    
+
+
+
+   
+
+</script>
+</html>

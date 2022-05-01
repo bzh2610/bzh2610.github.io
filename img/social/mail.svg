@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.466 47.929">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_421" data-name="Groupe 421" transform="translate(-1243 -12961)">
+    <g id="Rectangle_2426" data-name="Rectangle 2426" class="cls-1" transform="translate(1243 12961)">
+      <rect class="cls-3" width="62.224" height="47.929" rx="6"/>
+      <rect class="cls-4" x="1.5" y="1.5" width="59.224" height="44.929" rx="4.5"/>
+    </g>
+    <path id="download" class="cls-2" d="M62.438,6.994V46.935a3.879,3.879,0,0,1-3.9,3.994V6.994L31.219,26.906,3.9,6.994V50.929A3.877,3.877,0,0,1,0,46.935V6.994A4.019,4.019,0,0,1,1.121,4.15,3.819,3.819,0,0,1,3.9,3H5.2L31.219,22.3,57.235,3h1.3a3.836,3.836,0,0,1,2.781,1.15A4.008,4.008,0,0,1,62.438,6.994Z" transform="translate(1243.027 12958)"/>
+  </g>
+</svg>

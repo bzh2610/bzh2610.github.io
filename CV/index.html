@@ -1,0 +1,362 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+<title>Evan OLLIVIER</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Evan OLLIVIER, développeur freelance sur Brest. Étudiant à l'ENIB, intéressé par les startups. En savoir plus..." />
+<meta name="keywords" content="Evan OLLIVIER, developpeur, web, brest, ENIB" />
+<meta name="author" content="Evan OLLIVIER" />
+</head>
+<style>
+
+
+        h1{
+            color: #414141;
+            font-family: 'Lato'; text-transform: uppercase; font-weight: 300; font-size:50px;
+        }
+
+        body{
+            font-family: 'Lato'; font-size: 20px; color: #414141;
+            margin: 0px;
+            padding: 0px;
+                
+        }
+        .L  {
+            width:90%;
+        }
+        .L td {
+            width:30%;
+            position:relative;
+        }
+        .L td:after{
+            content:'';
+            display:block;
+            margin-top:100%;
+        }
+        .L td .g {
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            background:gold;
+        }
+
+
+        td .content {
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            /*background:gold;*/
+            transition: background 0.5s ease-in-out;
+        }
+
+
+
+
+        #hello{
+            transition:         transform 2s ease-in-out;
+        }
+        #hello:hover{
+            transform: rotate(90deg);
+
+        }
+
+        .letter{
+            width: 20%;
+        }
+
+
+
+
+
+        /*header*/
+
+        header{
+    width: 25%;
+    bottom: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    padding: 20% 0 20% 00
+}
+
+        header ul{
+            list-style: none;
+            font-weight: 300;
+            font-size: 20px;
+            color: #000;
+            text-transform: uppercase;
+        }
+        
+        header ul li:hover{
+            color: #717171;
+            transition: 0.1s ease-in-out;
+            cursor: pointer;
+        }
+        
+        header.dark{
+        background: black;
+        color: white;
+        }
+        
+        header.dark ul{
+            color: #FFF;
+        }
+        header .logo{
+            background: url('../img/logo_dark.svg') center/contain no-repeat; height: 30px; margin-top: 20px;
+        }
+        header.dark .logo{
+            background: url('../img/logo_light.svg') center/contain no-repeat;
+        }
+
+
+        header p{
+            text-align: right; display: inline-block; float: right; margin-left: 30px; font-family: Lato; font-weight: 200; text-transform: uppercase; margin-top: 25px; font-size: 20px;
+        }
+
+        header p span{
+            padding: 20px;
+        }
+
+        header p span.selected{
+            color: #33ACE2;
+        }
+
+
+         
+        .header_drawer{
+            float: left;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 30px;
+            padding: 20px;
+        }
+
+        .main{
+            margin-left: 25%;
+            
+            }
+        
+        .close{
+            display: none;
+        }
+                                 
+                    #cubes_svg{
+                        display: none;
+                    }
+        #logo_mobile{
+            display:none;
+            text-align: center;
+        }
+        
+                @media all and (max-width: 630px){
+            header{
+                display: none;
+                width: 100%;
+                opacity: 0.9;
+            }
+                    
+                    #logo_mobile{
+                        display: block;
+                    }
+                    
+                     .close{
+            display: inline;
+        }
+                    
+                    header.visible{
+                        display: block;
+                    }
+            .header_drawer{
+                display: block;
+            }
+                #cubes_html{
+                        display: none;
+                    }
+                    
+                    #cubes_svg{
+                        display: inline;
+                    }
+                    
+                    .main{
+            margin-left: 0%;
+            padding-left: 0%;
+            }
+        }
+        
+        @media all and(min-width: 631px){
+            
+            
+            
+      
+        }
+          a{
+            color: inherit;
+            text-decoration: none;
+        }
+       
+        .pannel_1{
+            /*height: 80%;*/
+        }
+        
+        
+    </style>
+<body>
+<div class="header_drawer">
+<img src="../drawer_E_dark.svg" alt="Menu" onClick="if (!window.__cfRLUnblockHandlers) return false; $('header').addClass('visible');" data-cf-modified-d1dfd37538f08de08164c3a0-="">
+</div>
+<header class="dark">
+<div class="logo">
+</div>
+<ul style="padding-top: 100px;">
+<li><a href="../index.html">Home</a></li>
+<li><a href="index.html"><b>Resume</b></a></li>
+<li><a href="../articles/index.html">Articles</a></li>
+<li><a href="../portfolio/index.html">Portfolio</a></li>
+<li><a href="../contact/index.html">Contact</a></li>
+</ul>
+<ul style="padding-top: 100px;">
+<li>FR</li>
+<li class="close">CLOSE MENU</li>
+</ul>
+</header>
+<div class="main">
+<style>
+                .pannel_3{
+                    min-height: 100%;
+                    padding-top: 100px;
+                    padding-left: 5%;
+                    padding-bottom: 100px;
+                }
+                .article{
+                    background: white;
+                    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.3);
+box-shadow: 4px 4px 5px 0pxrgba(0,0,0,0.3);
+                    min-height: 200px;
+                    width: 90%;
+                    margin: auto;
+                }
+      
+      .article h3{
+          color: #414141;
+          text-transform: capitalize;
+          font-weight: 400;
+          text-align: center;
+          padding: 20px;
+      }
+      
+      .article img{
+          width: 100%;
+      }
+      
+      table td p{
+          font-weight: 300;
+      }
+      td{
+          height: 300px;
+      }
+            </style>
+<div class="pannel" style="min-height: 120%; padding-top: 100px;">
+<h1>
+RESUME
+</h1>
+<img src="CV.svg">
+
+</div>
+<footer style="color: white; z-index: 1000; background: black; width: 100%; left: 0px; margin-top: -20px; padding: 50px;">
+<style>
+            footer p span{
+                padding: 20px;
+            }
+        </style>
+<style>
+            footer img{
+                height: 25px;
+            }
+        </style>
+<p style="vertical-align: top; text-align: left; text-transform: uppercase; font-weight: 200; font-size: 10px; width: 20%; display: inline-block;">
+Evan OLLIVIER (Entreprise individuelle),<br>
+SIREN: 804 720 898<br>
+51 ALLÉE DES CAMÉLIAS,<br>
+29490 GUIPAVAS,<br>
+FRANCE
+</p>
+<div style="display: inline-block; width: auto; padding-left: 10%; text-align: center; text-transform: uppercase; font-weight: 200; font-size: 20px;">
+<p>
+<span>À propos</span>
+<span>Aide</span>
+<span>CGV</span>
+<span>Contact</span>
+</p>
+<p>
+<span><a href="https://medium.com/@evan.ollivier"><img src="../img/social/medium.svg" alt="Medium"></a></span>
+<span> <a href="https://github.com/bzh2610"><img src="../img/social/github.svg" alt="Github"></a></span>
+<span> <a href="https://plus.google.com/u/0/+EvanOllivier"><img src="../img/social/gplus.svg" alt="Google +"></a></span>
+<span> <a href="skype://evan.ollivier?chat"><img src="../img/social/skype.svg" alt="Skype"></a></span>
+</p>
+<p style="text-align: center; font-weight: 200; font-size: 10px;">© 2016-2018<br>
+Evan OLLIVIER<br>
+All rights reserved.</p>
+</div>
+</footer>
+</div>
+</div>
+<script src="../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="d1dfd37538f08de08164c3a0-|49" defer=""></script></body>
+<script src="../jquery-3.3.1.min.js" type="d1dfd37538f08de08164c3a0-text/javascript"></script>
+<script src="https://evanollivier.me/CV/jquery.appear-master/jquery.appear.js" async defer type="d1dfd37538f08de08164c3a0-text/javascript"></script>
+<script type="d1dfd37538f08de08164c3a0-text/javascript">
+
+
+
+
+
+
+    
+
+
+function isInView(elem){
+   return !($(elem).offset().top - $(window).scrollTop() < -$(elem).height());
+}
+        
+
+    $(window).scroll(function(){
+   if (isInView($('.pannel_1'))){
+      //fire whatever you what
+       if(! $('header').hasClass('dark')){
+            $('header').addClass('dark');
+       }
+    
+   }else{
+       $('header').removeClass('dark');
+   }
+})
+    
+    
+    $('.close').on('click', function(){
+       $('header').removeClass('visible');
+    });
+    
+    $('.textInput').on('focus', function(){
+        $(this).attr('placeholdersave', $(this).attr('placeholder'));
+        $(this).attr('placeholder', '');
+    });
+    
+      $('.textInput').on('focusout', function(){
+        $(this).attr('placeholder', $(this).attr('placeholdersave'));
+      
+    });
+    
+
+
+
+   
+
+</script>
+</html>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 345.001 344.241">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: rgba(33,33,33,0.27);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.211" y1="0.015" x2="0.934" y2="0.967" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4ac34"/>
+      <stop offset="1" stop-color="#fd3b29"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_449" data-name="Groupe 449" transform="translate(-615 -4508.729)">
+    <rect id="Rectangle_2641" data-name="Rectangle 2641" class="cls-1" width="345.001" height="344.241" rx="74" transform="translate(615 4508.729)"/>
+    <path id="Tracé_2114" data-name="Tracé 2114" class="cls-2" d="M10320.487-2145.122v-64.5c.315-18.323,17.328-63.749,64-64.7h53.215l84.406,68,50.836,104.372-104.111,78.174-84.346-45.362Z" transform="translate(-9704.742 6784.083)"/>
+    <path id="Tracé_2115" data-name="Tracé 2115" class="cls-3" d="M10732.026-2231.071s19.566,36.722,23.621,62.839-7.418,41.631-7.418,41.631a591.065,591.065,0,0,1-48.242-34.505c-27.523-21.647-61.846-52.085-61.846-52.085l58.674,72.924-84.436-58.559s31.045,44.781,57.084,72.226,47.07,37.545,47.07,37.545-24.367,16.953-54.861,15.414-67.115-21.573-67.115-21.573,36.49,42.675,74.906,56.9,62.018,7.308,78.766,0,19.564-11.311,33.48-11.311,31.613,21.829,31.613,21.829,8.5-12.427,6.148-27.741-11.686-12.335-15.574-33.518,5.547-28.337,0-51.212C10799.38-2166.511,10766.829-2199.189,10732.026-2231.071Z" transform="translate(-9918.313 6805.926)"/>
+  </g>
+</svg>
